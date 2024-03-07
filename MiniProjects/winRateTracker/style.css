@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    align-items: center;
+    background-color: darkslategrey;
+    color: aliceblue;
+    flex-direction: column;
+}
+
+.addPlayerContainer {
+    font-weight: bold;
+}
+
+.playerName {
+    display: inline-block;
+    flex-direction: row;
+
+}

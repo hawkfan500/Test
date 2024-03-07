@@ -1,0 +1,28 @@
+body {
+    background-color: darkslateblue;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.count {
+    border: 2px solid grey;
+    margin: 10%;
+    margin-bottom: 10px;
+    border-radius: 1px;
+    height: 30px;
+    width: 200px;
+    display: flex;
+    align-items: center;;
+    flex-direction: column;
+}
+
+.currentNumber {
+    display: flex;
+    color: antiquewhite;
+    font-weight: bold;
+}
